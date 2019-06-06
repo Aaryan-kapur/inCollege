@@ -1,15 +1,17 @@
 @import "fonts.scss";
-@import 'colors.scss';
-@import 'App.scss';
+@import "colors.scss";
+@import "App.scss";
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 body {
-  color: $secondary;
-  background-color: $primary;
+  color: $primary;
+
+  background-color: $secondary;
+ 
   font-family: $primary-font;
 }
 

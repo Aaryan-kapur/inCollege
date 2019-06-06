@@ -1,0 +1,30 @@
+@import "./colors.scss";
+@import "./fonts.scss";
+.mainUpper {
+  color: $primary;
+  margin-left: 0;
+  text-align: center;
+  height: 50vh;
+  .imageUpper{
+    padding-top:30px;
+    .upperImage {
+      
+    height: 100vh;
+  }
+  }
+  .text-upper{
+top:50%;
+position:absolute;
+transform: translateY(-50%);
+
+    .upperText {
+      font-size: 2.3rem;
+      font-size: 600;
+    }
+        .buttonUpper{
+          border-radius: 50px;
+          height:3rem;
+  
+        }
+  }
+}

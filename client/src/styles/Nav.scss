@@ -1,0 +1,111 @@
+@import "colors.scss";
+
+main{
+
+}
+.NavBar {
+  z-index: 999;
+  position: sticky;
+  color: $secondary;
+  background-color: $primary;
+  padding: 0px;
+  box-shadow: none;
+  border-bottom: solid 1px $primary;
+  height: 80px;
+  a{
+    text-decoration: none;
+    color:inherit;
+  }
+  @media only screen and (max-width: 415px) {
+    height: 60px;
+
+  }
+
+  .navInner {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    .col {
+      padding: 0;
+      .inner {
+        margin: 0;
+        height: 100%;
+
+        .lastLogo {
+
+          @media only screen and (max-width: 415px) {
+            visibility: hidden;
+            display: none;
+          }
+        }
+
+        span {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          text-align: center;
+          width: 100%;
+          font-weight: 700;
+
+          @media only screen and (max-width: 415px) {
+            font-size: 2.5rem;
+          }
+        }
+      }
+      .buttons {
+        width: 100%;
+        text-align: center;
+        .collection {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 100%;
+
+          .button-nav {
+            margin: 0 auto;
+            text-align: center;
+            font-weight: 400;
+            margin-left: 2%;
+          }
+
+          @media only screen and (max-width: 740px) {
+            visibility: hidden;
+            display: none;
+          }
+        }
+        .Phone {
+          padding: 16px 0;
+          width: 100%;
+          text-align: center;
+          @media only screen and (min-width: 740px) {
+            visibility: hidden;
+          }
+          @media only screen and (max-width: 415px) {
+            visibility: hidden;
+            display: none;
+          }
+          .textPhone {
+            font-weight: 700;
+
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            text-align: center;
+            @media only screen and (max-width: 740px) and (min-width: 415px) {
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.hide {
+  @media only screen and (max-width: 415px) {
+    visibility: hidden;
+    display: none;
+  }
+}
