@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import Nav from './Nav';
-import Upper from './Upper';
+import React, { Component } from "react";
+import Nav from "./Nav";
+import Upper from "./Upper";
+import BottomNav from "./BottomNav";
 class App extends Component {
   render() {
     return (
-
       <React.Fragment>
-
-      <Nav />
-      <Upper />
+        <Nav />
+        <Upper />
+        <BottomNav />
       </React.Fragment>
     );
   }
