@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Nav from '../home/Nav';
+
 import MainMatch from './MainMatch';
+import BottomNav from './BottomNav';
 class AppMatch extends Component {
 
     render() { 
@@ -8,8 +9,9 @@ class AppMatch extends Component {
 
 
 
-            <Nav />
+
             <MainMatch />
+            <BottomNav />
         </React.Fragment> );
     }
 }
